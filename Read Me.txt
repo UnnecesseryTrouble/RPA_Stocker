@@ -1,0 +1,12 @@
+
+##How It's Meant To Function | User Instruction##
+
+• Users use the MASTER file kept in '\Data' folder make a copy and filter it for only desired stocks. 
+Master file isn't required to create before each run but if needed that can be done by triggering 'GetMasterFile.xaml'.
+• Users need to mail an input file (admins would share a master file for the first time with users when they opt for this service 
+it contains all listed stock details of BSE & NSE) with all their wish listed stocks to Bot mail id arijitghosh.da@gmail.com 
+the mail subject should contain the keyword “Stocker” (case insensitive) as identifier.
+• Bot runs as per schedule for all available mails and it searches over the web for all possible attributes that you might be 
+interested in (we're using www.moneycontrol.com here for our design) and after analyzing all the data it sends a mail to your 
+requestor’s mail id with an attached Excel file. Even on a busy schedule where you carry your mobile phone you can access your 
+mails and take a quick decision just by looking at the excel file.
